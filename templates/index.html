@@ -1,0 +1,44 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        font-family: "Rubik", "sans-serif";
+    }
+    body {
+        background-color: #f8b359;
+        }
+    div {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1 {
+        color: red;
+        font-size: 40pt;
+    }
+
+    h2 {
+        margin-top: 30px;
+        font-size: 10pt;
+    }
+
+    p1 {
+        font-size: 18pt;
+    }
+
+</style>
+<body>
+<div>
+    <h1>Welcome to Beer Belly!</h1><br>
+    <p1>This site will return your top 10 beer recommendations using our recommender system.</p1>
+    <h2>Please key in your username:<h2>
+
+    <form action="/post_field/" method="post">
+    <input type="text" name="this_form"/>
+    <input type="submit" value="Submit"/>
+    </form>
+    {{ value1 }}
+
+</div>
+</body>
