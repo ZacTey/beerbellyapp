@@ -15,3 +15,5 @@ https://beerbellyapp-62abfa954241.herokuapp.com/
 5. FLASK FRONT END: This python flask front end will then able to call the API from AWS DynamoDB and return the top 10 recommendations.
 
    (Note: This web app has depreciated due to the AWS DynamoDB API has been shutdown)
+
+Presentation Slides link: https://docs.google.com/presentation/d/14VCCcpXYmNqJbyrzba2I2j35aluqndwx/edit?usp=sharing&ouid=101009144375833340715&rtpof=true&sd=true
